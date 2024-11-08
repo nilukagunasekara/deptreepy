@@ -1,0 +1,1 @@
+conllu2trees | match_trees (AND (OR (LEMMA talk) (LEMMA say) (LEMMA mention) (LEMMA tell) (LEMMA explain) (LEMMA joke)) (HAS_SUBTREE (AND (DEPREL nsubj) (NOT (POS PRON))))) | trees2strs
